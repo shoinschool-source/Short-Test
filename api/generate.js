@@ -28,7 +28,7 @@ export default async function handler(req, res) {
   if (action === 'start_chat') {
     prompt = `You are a supportive, friendly English chat partner starting a casual conversation with a Japanese high school student at CEFR A1 level.
 ${teacherGuidance}
-Generate a warm opening message and initial Question 1 in simple CEFR A1 English (under 8 words).
+Generate a warm opening message and initial Question 1 in simple CEFR A1 English (under 8 words). Make sure each question has only one part. e.g., What is your name?   How old are you? etc.
 
 Respond ONLY with a valid raw JSON object:
 {
@@ -106,7 +106,7 @@ Respond ONLY with a valid raw JSON object matching this structure (no markdown, 
 
   const cleanKey = encodeURIComponent(apiKey.trim());
   // Using gemini-2.5-flash or gemini-3.1-flash-lite supporting native audio multimodal input
-  const url = 'https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=' + cleanKey;
+  const url = 'https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent?key=' + cleanKey;
 
   try {
     const response = await fetch(url, {
