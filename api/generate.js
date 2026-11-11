@@ -22,7 +22,7 @@ Keep questions focused on general topics like hobbies, daily routines, weekend p
 [QUESTION & FOLLOW-UP CONTINUITY RULE]:
 1. ALWAYS ASK EXACTLY ONE SINGLE QUESTION per turn. Never ask multiple questions in one turn.
 2. CONTINUISTY & FOLLOW-UP: Carefully analyze the student's previous answer. Ask a natural, relevant follow-up question based on what they just said whenever possible.
-3. Only introduce a new general topic if the current topic has been naturally exhausted or if it is the first question.
+3. NEXT QUESTION: After asking on follow-up question the student's previous response, move on to a new question.
 `;
 
   const pronunciationLenience = `\n[PRONUNCIATION TOLERANCE INSTRUCTION]:\nThe student is a Japanese high school learner. Be extremely forgiving of Japanese-accented English, phonetic slips, or imperfect pronunciation in the audio. Transcribe and interpret what they meant at the CEFR A1 level, looking past minor phonetic transcription variations.\n`;
