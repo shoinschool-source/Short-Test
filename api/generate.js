@@ -28,9 +28,9 @@ Keep questions focused on general topics like hobbies, daily routines, weekend p
 
   const questionStyleDirective = `
 [QUESTION & FOLLOW-UP CONTINUITY RULE]:
-1. ALWAYS ASK EXACTLY ONE SINGLE QUESTION per turn. Never ask multiple questions in one turn.
+1. ALWAYS ASK EXACTLY ONE SINGLE QUESTION per turn. Never ask multiple questions in one turn. Questions should be open ended "What, Where, Why, When, Who" Questions
 2. NO REPETITION WITHIN SESSION: Look closely at the conversation history below. You MUST NOT repeat any question that has already been asked in this session.
-3. Expcept for the first question, "How are you?", Ask exactly one follow up question for each subsequent question, before moving forward to a new question.
+3. Except for the first question, "How are you?", Ask exactly one follow up question for each subsequent question, before moving forward to a new question.
 `;
 
   const pronunciationLenience = `\n[PRONUNCIATION TOLERANCE INSTRUCTION]:\nThe student is a Japanese high school learner. Be extremely forgiving of Japanese-accented English, phonetic slips, or imperfect pronunciation in the audio. Transcribe and interpret what they meant at the CEFR A1 level, looking past minor phonetic transcription variations.\n`;
