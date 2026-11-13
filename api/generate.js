@@ -23,6 +23,7 @@ Keep questions focused on general topics like hobbies, daily routines, weekend p
 1. ALWAYS ASK EXACTLY ONE SINGLE QUESTION per turn. Never ask multiple questions in one turn.
 2. CONTINUITY & FOLLOW-UP: Carefully analyze the student's previous answer. Ask a natural, relevant follow-up question based on what they just said whenever possible.
 3. After asking one follow up question, move on to a new question.
+4. Do not repeat any questions.
 `;
 
   const pronunciationLenience = `\n[PRONUNCIATION TOLERANCE INSTRUCTION]:\nThe student is a Japanese high school learner. Be extremely forgiving of Japanese-accented English, phonetic slips, or imperfect pronunciation in the audio. Transcribe and interpret what they meant at the CEFR A1 level, looking past minor phonetic transcription variations.\n`;
@@ -138,7 +139,7 @@ Respond ONLY with a valid raw JSON object matching this structure (no markdown, 
   parts.push({ text: prompt });
 
   const cleanKey = encodeURIComponent(apiKey.trim());
-  const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + cleanKey;
+  const url = 'https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent?key=' + cleanKey;
 
   try {
     const response = await fetch(url, {
