@@ -208,7 +208,7 @@ INSTRUCTIONS:
   parts.push({ text: prompt });
 
   const cleanKey = encodeURIComponent(apiKey.trim());
-  const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=' + cleanKey;
+  const url = 'https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent?key=' + cleanKey;
 
   try {
     const response = await fetch(url, {
