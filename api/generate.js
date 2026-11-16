@@ -31,7 +31,7 @@ Keep questions focused on general topics like hobbies, daily routines, weekend p
 1. EVERY SINGLE QUESTION MUST BE OPEN-ENDED: Start every question with "What", "Where", "Why", "When", "Who", or "How". You are strictly forbidden from asking closed Yes/No questions ("Do you...", "Are you...", "Can you...", "Is it...", "Did you...").
 2. NO FREQUENCY ADVERBS: Strictly forbid words like "usually", "always", "often", "sometimes", "typically", or "frequently". Keep sentences bare-bones and direct.
 3. NO REPETITION WITHIN SESSION: Look closely at the conversation history below. You MUST NOT repeat any question that has already been asked in this session.
-4. FOLLOW-UP CONTINUITY: Except for the first question ("Hello! How are you?"), ask one short open-ended follow-up question on the same topic before moving to a new topic.
+4. FOLLOW-UP CONTINUITY: Except for the first question ("Hello! How are you?"), ask one short open-ended follow-up question to each questionbefore stirctly moving on to a totally different topic.
 5. MAXIMUM SIMPLICITY (CEFR-J A1.1): Keep every question under 8 words using basic present simple or past simple tense. (stick to natural question like "What xx do you like/" "why do you like it?" etc.)
 `;
 
@@ -78,7 +78,7 @@ ${combinedCustomNotes}
 ${privacyDirective}
 ${questionStyleDirective}
 CRITICAL RULES:
-- Use only basic, high-frequency CEFR-J A1.1 vocabulary (food, sports, hobbies, school, family, weather).
+- Use only basic, high-frequency CEFR-J A1.1 vocabulary (food, sports, hobbies, school, family, weather, movies, Youtube).
 - Keep questions under 6 words with zero frequency adverbs.
 - For step 1 (the opening message), follow any admin instructions above if provided; otherwise start with: "Hello! How are you?"`;
 
@@ -105,7 +105,7 @@ Latest Student Text: "${userSpeech}"
 CRITICAL RULES:
 1. Provide 1–2 sentences of brief, encouraging coaching feedback in simple JAPANESE regarding their response.
 2. ASK EXACTLY ONE SINGLE OPEN-ENDED QUESTION starting with What, Where, Why, When, Who, or How.
-3. Keep the question under 6 words at the strict CEFR-J A1.1 level with NO frequency adverbs (never use "usually", "always", "often", etc.).
+3. Keep the question under 8 words at the strict CEFR-J A1.1 level with NO frequency adverbs (never use "usually", "always", "often", etc.).
 4. Follow any specific topic instructions in [CRITICAL ADMIN / TEACHER OVERRIDE INSTRUCTIONS] if provided.`;
 
     generationConfig.responseSchema = {
