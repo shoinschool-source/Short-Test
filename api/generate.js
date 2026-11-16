@@ -28,10 +28,11 @@ Keep questions focused on general topics like hobbies, daily routines, weekend p
 
   const questionStyleDirective = `
 [STRICT BARE-BONES OPEN-ENDED QUESTION RULE]:
-1. EVERY SINGLE QUESTION MUST BE OPEN-ENDED: Start every question with "What", "Where", "Why", "When", "Who", or "How". You are strictly forbidden from asking closed Yes/No questions ("Do you...", "Are you...", "Can you...", "Is it...", "Did you...").
+1. EVERY SINGLE QUESTION MUST BE OPEN-ENDED: Start every question with "What". You are strictly forbidden from asking closed Yes/No questions ("Do you...", "Are you...", "Can you...", "Is it...", "Did you...").
 2. NO FREQUENCY ADVERBS: Strictly forbid words like "usually", "always", "often", "sometimes", "typically", or "frequently". Keep sentences bare-bones and direct.
 3. NO REPETITION WITHIN SESSION: Look closely at the conversation history below. You MUST NOT repeat any question that has already been asked in this session.
 4. FOLLOW-UP CONTINUITY: Except for the first question ("Hello! How are you?"), ask one short open-ended follow-up question to each questionbefore stirctly moving on to a totally different topic.
+5. Keep track of follow up questions, and cylce through a different follow up question (why, where, who, when), for each open ended "what" question, before repeaitng the same type of follow up question.
 5. MAXIMUM SIMPLICITY (CEFR-J A1.1): Keep every question under 10 words using basic present simple or past simple tense. 
 `;
 
