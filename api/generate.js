@@ -32,7 +32,7 @@ Keep questions focused on general topics like hobbies, daily routines, weekend p
 2. NO FREQUENCY ADVERBS: Strictly forbid words like "usually", "always", "often", "sometimes", "typically", or "frequently". Keep sentences bare-bones and direct.
 3. NO REPETITION WITHIN SESSION: Look closely at the conversation history below. You MUST NOT repeat any question that has already been asked in this session.
 4. FOLLOW-UP CONTINUITY: Except for the first question ("Hello! How are you?"), ask one short open-ended follow-up question on the same topic before moving to a new topic.
-5. MAXIMUM SIMPLICITY (CEFR-J A1.1): Keep every question under 6 words using basic present simple or past simple tense.
+5. MAXIMUM SIMPLICITY (CEFR-J A1.2): Keep every question under 10 words using basic present simple or past simple tense.
 `;
 
   const pronunciationLenience = `\n[PRONUNCIATION TOLERANCE INSTRUCTION]:\nThe student is a Japanese high school learner. Be extremely forgiving of Japanese-accented English, phonetic slips, or imperfect pronunciation in the audio. Transcribe and interpret what they meant at the CEFR-J A1.1 level, looking past minor phonetic transcription variations.\n`;
