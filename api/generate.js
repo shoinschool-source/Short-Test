@@ -32,7 +32,7 @@ Keep questions focused on general topics like hobbies, daily routines, weekend p
 2. NO FREQUENCY ADVERBS: Strictly forbid words like "usually", "always", "often", "sometimes", "typically", or "frequently". Keep sentences bare-bones and direct.
 3. NO REPETITION WITHIN SESSION: Look closely at the conversation history below. You MUST NOT repeat any question that has already been asked in this session.
 4. FOLLOW-UP CONTINUITY: Except for the first question ("Hello! How are you?"), ask one short open-ended follow-up question to each questionbefore stirctly moving on to a totally different topic.
-5. MAXIMUM SIMPLICITY (CEFR-J A1.1): Keep every question under 8 words using basic present simple or past simple tense. (stick to natural question like "What xx do you like/" "why do you like it?" etc.)
+5. MAXIMUM SIMPLICITY (CEFR-J A1.1): Keep every question under 10 words using basic present simple or past simple tense. 
 `;
 
   const pronunciationLenience = `\n[PRONUNCIATION TOLERANCE INSTRUCTION]:\nThe student is a Japanese high school learner. Be extremely forgiving of Japanese-accented English, phonetic slips, or imperfect pronunciation in the audio. Transcribe and interpret what they meant at the CEFR-J A1.1 level, looking past minor phonetic transcription variations.\n`;
@@ -105,7 +105,7 @@ Latest Student Text: "${userSpeech}"
 CRITICAL RULES:
 1. Provide 1–2 sentences of brief, encouraging coaching feedback in simple JAPANESE regarding their response.
 2. ASK EXACTLY ONE SINGLE OPEN-ENDED QUESTION starting with What, Where, Why, When, Who, or How.
-3. Keep the question under 8 words at the strict CEFR-J A1.1 level with NO frequency adverbs (never use "usually", "always", "often", etc.).
+3. Keep the question under 10 words at the strict CEFR-J A1.1 level with NO frequency adverbs (never use "usually", "always", "often", etc.).
 4. Follow any specific topic instructions in [CRITICAL ADMIN / TEACHER OVERRIDE INSTRUCTIONS] if provided.`;
 
     generationConfig.responseSchema = {
