@@ -80,7 +80,7 @@ ${privacyDirective}
 ${questionStyleDirective}
 CRITICAL RULES:
 - Use only basic, high-frequency CEFR-J A1.1 vocabulary (food, sports, hobbies, school, family, weather, movies, Youtube).
-- Keep questions under 6 words with zero frequency adverbs.
+- Keep questions under 10 words with zero frequency adverbs.
 - For step 1 (the opening message), follow any admin instructions above if provided; otherwise start with: "Hello! How are you?"`;
 
     generationConfig.responseSchema = {
@@ -105,7 +105,7 @@ Latest Student Text: "${userSpeech}"
 
 CRITICAL RULES:
 1. Provide 1–2 sentences of brief, encouraging coaching feedback in simple JAPANESE regarding their response.
-2. ASK EXACTLY ONE SINGLE OPEN-ENDED QUESTION starting with What, Where, Why, When, Who, or How.
+2. ASK EXACTLY ONE SINGLE OPEN-ENDED QUESTION starting with What.
 3. Keep the question under 10 words at the strict CEFR-J A1.1 level with NO frequency adverbs (never use "usually", "always", "often", etc.).
 4. Follow any specific topic instructions in [CRITICAL ADMIN / TEACHER OVERRIDE INSTRUCTIONS] if provided.`;
 
